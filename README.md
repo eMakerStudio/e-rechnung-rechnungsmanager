@@ -32,7 +32,7 @@ Falls du noch kein eigenes Zertifikat hast, kannst du mit OpenSSL ein selbstsign
 
 📌 Für produktive Umgebungen solltest du ein offizielles Zertifikat (z. B. von DigiCert, GlobalSign, Bundesdruckerei) nutzen.
 
-Die neuen Funktionen umfassen: zusätzliche Ordner und Bibliotheken sowie Änderungen in den Dateien rechnung.php und generate.php. 
+Durch die neuen Funktionen gibt es zusätzliche Ordner und Bibliotheken sowie Änderungen in den Dateien rechnung.php und generate.php. 
 Ordner: output/signatures und secure_keys
 Bibliotheken: libs/fpdi (inklusive fpdf.php)
 
