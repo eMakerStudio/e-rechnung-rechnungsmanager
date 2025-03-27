@@ -31,7 +31,11 @@ Falls du noch kein eigenes Zertifikat hast, kannst du mit OpenSSL ein selbstsign
   Wenn man etwas anderes wünscht, muss dieser Teil entsprechend angepasst werden.
 
 📌 Für produktive Umgebungen solltest du ein offizielles Zertifikat (z. B. von DigiCert, GlobalSign, Bundesdruckerei) nutzen.
-Die neuen Funktionen werden in der Datei generate.php hinzugefügt.
+
+Die neuen Funktionen umfassen: zusätzliche Ordner und Bibliotheken sowie Änderungen in den Dateien rechnung.php und generate.php. 
+Ordner: output/signatures und secure_keys
+Bibliotheken: libs/fpdi (inklusive fpdf.php)
+
 
 ### Zukünftige Funktionen
 - **e-Signatur**: Hinzufügen einer e-Signatur für Ausgangsrechnungen (in Arbeit)
