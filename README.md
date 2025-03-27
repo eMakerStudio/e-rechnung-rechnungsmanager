@@ -17,13 +17,13 @@ Ein einfaches und effizientes PHP-basiertes Tool zur Erstellung, Verwaltung und 
 - **Eigenständig und leicht zu bedienen**: Keine zusätzlichen Abhängigkeiten oder komplizierte Einrichtung erforderlich.
 
 ### in Arbeit
-- **e-Signatur**: Hinzufügen einer e-Signatur für Ausgangsrechnungen
+- **e-Signatur**: Hinzufügen einer e-Signatur für Ausgangsrechnungen.
   Vorraussetzung für die Nutzung der e-Signatur-Funktion sind Private Key und ein Zertifikat:
 
 #### Private Key & Zertifikat erzeugen (falls noch nicht vorhanden)
 Falls du noch kein eigenes Zertifikat hast, kannst du mit OpenSSL ein selbstsigniertes Zertifikat erstellen:
 
-#### in bash OpenSSL Zertifikat erzeugen OpenSSL muss installiert sein!!
+#### in bash OpenSSL Zertifikat erzeugen (OpenSSL muss installiert sein!!)
 - openssl genpkey -algorithm RSA -out private_key.pem
 - openssl req -new -x509 -key private_key.pem -out certificate.pem -days 365
 
