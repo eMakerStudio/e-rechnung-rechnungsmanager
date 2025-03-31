@@ -1,0 +1,27 @@
+{
+    "invoice_number": "25-1",
+    "invoice_date": "2025-01-03",
+    "issuer": {
+        "name": "Dagmar Duck",
+        "address": "Schlo\u00dfstr. 7",
+        "city": "13587 Berlin"
+    },
+    "customer": {
+        "name": "Emma Weiden",
+        "address": "Warschauer Stra\u00dfe 59",
+        "city": "Berlin"
+    },
+    "items": [
+        {
+            "name": "Gastbeitrag",
+            "quantity": "1",
+            "price": "77"
+        }
+    ],
+    "total": 77,
+    "bank_details": {
+        "name": "Sparb\u00fcxe",
+        "iban": "DE69 1001 000 7654 56",
+        "bic": "BHUTREXX"
+    }
+}

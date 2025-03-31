@@ -1,0 +1,86 @@
+[
+    {
+        "filename": "1733887163-invoice.xml",
+        "type": "xml",
+        "invoice_number": "INV-2024-001",
+        "invoice_date": "2024-12-10",
+        "status": "unbezahlt"
+    },
+    {
+        "filename": "1733887185-invoice.xml",
+        "type": "xml",
+        "invoice_number": "INV-2024-001",
+        "invoice_date": "2024-12-10",
+        "status": "bezahlt"
+    },
+    {
+        "filename": "1733892930-invoice.xml",
+        "type": "xml",
+        "invoice_number": "INV-2024-001",
+        "invoice_date": "2024-12-10",
+        "status": "unpaid"
+    },
+    {
+        "filename": "1733893425-25-1.json",
+        "type": "json",
+        "invoice_number": "25-1",
+        "invoice_date": "2025-01-03",
+        "status": "unpaid"
+    },
+    {
+        "filename": "1735325031-pdf24-Rechnung-20240031.json",
+        "type": "json",
+        "invoice_number": "N\/A",
+        "invoice_date": "N\/A",
+        "status": "bezahlt"
+    },
+    {
+        "filename": "1736183063-XRECHNUNG_Reisekostenabrechnung.ubl.xml",
+        "type": "xml",
+        "invoice_number": "N\/A",
+        "invoice_date": "N\/A",
+        "status": "unpaid"
+    },
+    {
+        "filename": "1736183080-EN16931_Reisekostenabrechnung.ubl.xml",
+        "type": "xml",
+        "invoice_number": "N\/A",
+        "invoice_date": "N\/A",
+        "status": "unpaid"
+    },
+    {
+        "filename": "1736183113-EN16931_Reisekostenabrechnung.cii.xml",
+        "type": "xml",
+        "invoice_number": "N\/A",
+        "invoice_date": "N\/A",
+        "status": "unpaid"
+    },
+    {
+        "filename": "1743413507-nasm.xml",
+        "type": "xml",
+        "invoice_number": "N\/A",
+        "invoice_date": "N\/A",
+        "status": "unpaid"
+    },
+    {
+        "filename": "1743413558-nasm.xml",
+        "type": "xml",
+        "invoice_number": "N\/A",
+        "invoice_date": "N\/A",
+        "status": "unpaid"
+    },
+    {
+        "filename": "1743413610-nasm.xml",
+        "type": "xml",
+        "invoice_number": "N\/A",
+        "invoice_date": "N\/A",
+        "status": "unpaid"
+    },
+    {
+        "filename": "1743414026-nasm.xml",
+        "type": "xml",
+        "invoice_number": "N\/A",
+        "invoice_date": "N\/A",
+        "status": "unpaid"
+    }
+]

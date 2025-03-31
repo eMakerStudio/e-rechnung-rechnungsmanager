@@ -1,0 +1,32 @@
+<invoice>
+    <invoice_number>INV-2024-001</invoice_number>
+    <invoice_date>2024-12-10</invoice_date>
+    <issuer>
+        <name>Barbara Hohensee</name>
+        <address>Sigmund-Bergmann-Strasse</address>
+        <city>13587 Berlin</city>
+    </issuer>
+    <customer>
+        <name>Emma Weiden</name>
+        <address>Warschauer Straße 59</address>
+        <city>Berlin</city>
+    </customer>
+    <items>
+        <item>
+            <name>Backlink</name>
+            <quantity>1</quantity>
+            <price>55.00</price>
+        </item>
+        <item>
+            <name>Artikel</name>
+            <quantity>2</quantity>
+            <price>24.00</price>
+        </item>
+    </items>
+    <total>103.00</total>
+    <bank_details>
+        <name>Sparkasse</name>
+        <iban>DE69 1001 000 7654 56</iban>
+        <bic>BHUTREXX</bic>
+    </bank_details>
+</invoice>
