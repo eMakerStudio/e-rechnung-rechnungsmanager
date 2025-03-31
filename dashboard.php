@@ -74,9 +74,10 @@
 <body>
     <h1>Rechnungsliste</h1>
 
-    <!-- Button "Neue Rechnung erstellen" -->
+     <!-- Button "Neue Rechnung erstellen oder importieren" -->
     <div class="button-container">
-        <a href="index.php">Neue Rechnung erstellen</a>
+    <a href="index.php">Übersicht</a>
+    <!-- <a href="upload.php" style="background-color: #007BFF;">Eingangsrechnung importieren</a> -->
     </div>
 
     <!-- Suchfunktion -->
@@ -97,11 +98,14 @@
                 <th>Gesamtbetrag (€)</th>
                 <th>PDF</th>
                 <th>JSON (e-Rechnung)</th>
+                <th>Signierte PDF</th>
                 <th>Löschen</th>
             </tr>
         </thead>
         <tbody>
             <?php
+            ob_start();
+
             // Rechnungen aus dem Verzeichnis 'output/e-invoices/' laden
             $invoicesDir = __DIR__ . '/output/e-invoices/';
             $pdfDir = __DIR__ . '/output/invoices/';
@@ -124,10 +128,12 @@
                     unlink($pdfFile);
                 }
 
-                // Zurück zum Dashboard
-                header('Location: dashboard.php');
-                exit;
+
+        echo '<script>window.location.href="dashboard.php";</script>';
+        exit;
+                
             }
+
 
             if (!$files) {
                 echo '<tr><td colspan="7">Keine Rechnungen gefunden.</td></tr>';
@@ -154,6 +160,7 @@
                     }
 
                     $pdfPath = 'output/invoices/' . $invoiceNumber . '.pdf';
+                    $signedPdfFilePath = 'output/invoices-signed/' . $invoiceNumber . '-signed.pdf';
                     $jsonPath = 'output/e-invoices/' . basename($file);
 
                     echo '<tr>';
@@ -161,8 +168,9 @@
                     echo '<td>' . htmlspecialchars($date) . '</td>';
                     echo '<td>' . htmlspecialchars($customerName) . '</td>';
                     echo '<td>' . number_format($total, 2, ',', '.') . '</td>';
-                    echo '<td><a href="' . htmlspecialchars($pdfPath) . '" download>Download PDF</a></td>';
-                    echo '<td><a href="' . htmlspecialchars($jsonPath) . '" download>Download JSON</a></td>';
+                    echo '<td><a href="' . htmlspecialchars($pdfPath) . '" download>PDF</a></td>';
+                    echo '<td><a href="' . htmlspecialchars($jsonPath) . '" download>JSON</a></td>';
+                    echo '<td><a href="' . htmlspecialchars($signedPdfFilePath) . '" download>Signierte PDF</a></td>';
                     echo '<td><a href="?delete=' . htmlspecialchars($invoiceNumber) . '" class="delete-link">Löschen</a></td>';
                     echo '</tr>';
                 }
@@ -176,18 +184,10 @@
                     echo '</tr>';
                 }
             }
+            ob_end_flush();
             ?>
         </tbody>
     </table>
-
-    <!-- // Buy me a coffee -->
-    <div style="text-align: center; margin-top: 30px;">
-    <a href="https://buymeacoffee.com/barbarahohensee" target="_blank" style="text-decoration: none; color: #FF813F; font-size: 16px;">
-        <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me a Coffee" style="height: 50px; width: auto;">
-        <br>
-        <span style="display: block; margin-top: 10px;">Unterstütze mich auf Buy Me a Coffee!</span>
-    </a>
-</div>
 
 
 </body>
