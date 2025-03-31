@@ -16,8 +16,8 @@ Ein einfaches und effizientes PHP-basiertes Tool zur Erstellung, Verwaltung und 
 - **Dateiverwaltung**: Rechnungen können direkt aus dem Dashboard gelöscht werden.
 - **Eigenständig und leicht zu bedienen**: Keine zusätzlichen Abhängigkeiten oder komplizierte Einrichtung erforderlich.
 
-### in Arbeit
-- **e-Signatur**: Hinzufügen einer e-Signatur für Ausgangsrechnungen.
+### e-Signatur
+- **e-Signatur**: Hinzufügen einer e-Signatur für Ausgangsrechnungen und sonstige PDF-Dateien.
   Vorraussetzung für die Nutzung der e-Signatur-Funktion sind Private Key und ein Zertifikat:
 
 #### Private Key & Zertifikat erzeugen (falls noch nicht vorhanden)
@@ -38,7 +38,6 @@ Bibliotheken: libs/fpdi (inklusive fpdf.php)
 
 
 ### Zukünftige Funktionen
-- **e-Signatur**: Hinzufügen einer e-Signatur für Ausgangsrechnungen (in Arbeit)
 - **E-Mail-Versand**: Rechnungen direkt an Kunden per E-Mail senden.
 - **Benutzerverwaltung**: Unterscheidung zwischen Admin- und Benutzerrechten.
 - **Mehrsprachigkeit**: Unterstützung für weitere Sprachen.
@@ -122,7 +121,7 @@ Möchtest du dieses Projekt verbessern? So kannst du mithelfen:
 Dieses Projekt ist unter der [MIT-Lizenz](LICENSE) lizenziert.
 
 ## Life testen
-[https://barbarahohensee.de/invoice-generator](https://barbarahohensee.de/invoice-generator/)
+[https://barbarahohensee.de/invoice-generator](https://barbarahohensee.de/e-rechnung/)
 
 ## Hilfe bei der Installation
 Ich bringe das Programm auf deinen Server und mache auf Wunsch Anpassungen am Rechnungs-Template
