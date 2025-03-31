@@ -16,7 +16,7 @@ Ein einfaches und effizientes PHP-basiertes Tool zur Erstellung, Verwaltung und 
 - **Dateiverwaltung**: Rechnungen können direkt aus dem Dashboard gelöscht werden.
 - **Eigenständig und leicht zu bedienen**: Keine zusätzlichen Abhängigkeiten oder komplizierte Einrichtung erforderlich.
 
-### e-Signatur
+### e-Signatur (optional)
 - **e-Signatur**: Hinzufügen einer e-Signatur für Ausgangsrechnungen und sonstige PDF-Dateien.
   Vorraussetzung für die Nutzung der e-Signatur-Funktion sind Private Key und ein Zertifikat:
 
