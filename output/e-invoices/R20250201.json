@@ -1,0 +1,27 @@
+{
+    "invoice_number": "R20250201",
+    "invoice_date": "2025-02-28",
+    "issuer": {
+        "name": "test ug",
+        "address": "fantasiestr. 2",
+        "city": "22222 fantasiestadt"
+    },
+    "customer": {
+        "name": "blakunde",
+        "address": "kundenstr. 1",
+        "city": "11232 kundenstadt"
+    },
+    "items": [
+        {
+            "name": "Wurst",
+            "quantity": "2",
+            "price": "1"
+        }
+    ],
+    "total": 2,
+    "bank_details": {
+        "name": "fantasiebank",
+        "iban": "123423543",
+        "bic": "dsaad"
+    }
+}

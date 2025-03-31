@@ -1,0 +1,32 @@
+{
+    "invoice_number": "55555555",
+    "invoice_date": "2025-01-01",
+    "issuer": {
+        "name": "test ug",
+        "address": "fantasiestr. 2",
+        "city": "22222 fantasiestadt"
+    },
+    "customer": {
+        "name": "111111111",
+        "address": "222222222",
+        "city": "33333 xxxxxxxxxxxxx"
+    },
+    "items": [
+        {
+            "name": "Update Service",
+            "quantity": "1",
+            "price": "10"
+        },
+        {
+            "name": "Jahresgeb\u00fchr",
+            "quantity": "1",
+            "price": "55"
+        }
+    ],
+    "total": 65,
+    "bank_details": {
+        "name": "fantasiebank",
+        "iban": "123423543",
+        "bic": "dsaad"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "invoice_number": "102",
+    "invoice_date": "2025-02-19",
+    "issuer": {
+        "name": "Alfons Usprobieren",
+        "address": "Hintergasse 7",
+        "city": "50667 K\u00f6ln"
+    },
+    "customer": {
+        "name": "Saif Ali Shah",
+        "address": "Feldstr, 13",
+        "city": "Luedenscheid"
+    },
+    "items": [
+        {
+            "name": "KKKKK",
+            "quantity": "115",
+            "price": "34.20"
+        }
+    ],
+    "total": 3933.00000000000045474735088646411895751953125,
+    "bank_details": {
+        "name": "Geldspeicher",
+        "iban": "DE453250048211793466",
+        "bic": "GHIERRR"
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "invoice_number": "32344",
+    "invoice_date": "2025-01-10",
+    "issuer": {
+        "name": "Alfons Usprobieren",
+        "address": "Hintergasse 7",
+        "city": "50667 K\u00f6ln"
+    },
+    "customer": {
+        "name": "234dfg",
+        "address": "dfg34t",
+        "city": "3455"
+    },
+    "items": [
+        {
+            "name": "234234",
+            "quantity": "3",
+            "price": "2355"
+        },
+        {
+            "name": "553",
+            "quantity": "56",
+            "price": "235"
+        },
+        {
+            "name": "445",
+            "quantity": "4",
+            "price": "55"
+        }
+    ],
+    "total": 20445,
+    "bank_details": {
+        "name": "Geldspeicher",
+        "iban": "DE453250048211793466",
+        "bic": "GHIERRR"
+    }
+}

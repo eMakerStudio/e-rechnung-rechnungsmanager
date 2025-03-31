@@ -1,0 +1,27 @@
+{
+    "invoice_number": "333",
+    "invoice_date": "2520-12-12",
+    "issuer": {
+        "name": "test ug",
+        "address": "fantasiestr. 2",
+        "city": "22222 fantasiestadt"
+    },
+    "customer": {
+        "name": "Maxi",
+        "address": "Feldweg",
+        "city": "12342"
+    },
+    "items": [
+        {
+            "name": "Gastbeitrag",
+            "quantity": "1",
+            "price": "123"
+        }
+    ],
+    "total": 123,
+    "bank_details": {
+        "name": "fantasiebank",
+        "iban": "123423543",
+        "bic": "dsaad"
+    }
+}

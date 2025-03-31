@@ -1,0 +1,32 @@
+{
+    "invoice_number": "13158498",
+    "invoice_date": "2025-01-03",
+    "issuer": {
+        "name": "Alfons Usprobieren",
+        "address": "Hintergasse 7",
+        "city": "50667 K\u00f6ln"
+    },
+    "customer": {
+        "name": "Kunde",
+        "address": "Kundenweg",
+        "city": "23322"
+    },
+    "items": [
+        {
+            "name": "artikel1",
+            "quantity": "1",
+            "price": "12"
+        },
+        {
+            "name": "artikel 22",
+            "quantity": "33",
+            "price": "789"
+        }
+    ],
+    "total": 26049,
+    "bank_details": {
+        "name": "Geldspeicher",
+        "iban": "DE453250048211793466",
+        "bic": "GHIERRR"
+    }
+}
